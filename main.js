@@ -160,4 +160,6 @@ function vertex() {
     let y_vertex = (-d / (4 * a))
     let x_answer = round_user(x_vertex)
     let y_answer = round_user(y_vertex)
-    
+    document.getElementById("zeros_id").textContent = `The vertex's are ${x_answer} and ${y_answer}`
+    console.log("ddddddd")
+}
